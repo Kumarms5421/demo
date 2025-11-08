@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/SVGPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kumar</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo"> <!-- data-aos="zoom-in" data-aos-duration="1500" -->
+                Kumar  <span>M S</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#ABOUT">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills-page">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="https://drive.google.com/file/d/1nnNgXjDUTsr9iPoFV0_PMQIxAjMGxOtR/view?usp=drivesdk">Resume</a></div>
+                <div class="bld">
+                    <div class="btn__indicator">
+                        <div class="btn__icon-container">
+                            <i class="btn__icon fa-solid"></i>
+                        </div>
+                    </div>
+                </div>
+                
+               
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="#ABOUT">About</a>
+                <a href="#skills-page">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#">Resume</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="HOME" class="">
+        <div class="main-container">
+
+            <svg class="svg-animation image">
+                <defs>
+                    <pattern id="imagePattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                        <image class="img" href="pic/Profile.jpg" x="-10" y="0" width="120" height="120" />
+                    </pattern>
+                </defs>
+                <circle cx="50" cy="50" r="50" stroke="#0a7b33" stroke-width="3" fill="url(#imagePattern)" />
+            </svg>
+
+
+
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Kumar</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span></div>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">
+Motivated and detail-oriented Bachelor of Engineering graduate with expertise in Software Testing. Seeking an opportunity to leverage my technical skills, problemsolving abilities, and passion for quality assurance in a dynamic organization.
+
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Kumarms5421" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300" ><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kumar-kumu-0128a5290" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/kumar_ms5421/" target="_blank "data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/Kumar_ms5421" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="https://wa.me/7676061800?text=Hello%20!" target="_blank"><button>Let's Talk!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ABOUT" class="boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+        <div class="about">
+            <h1 id="aaa">About</h1>
+            <div class="typewriter2" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                <span class="typewriter-txt2"></span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card">
+                <p>
+                    I’m a dedicated Software Tester with hands-on experience in delivering high-quality, reliable, and user-centric software solutions. Currently working at Algoshack Technologies, I contribute to ABFRL’s E-Commerce platform, where I’ve identified and resolved over 350+ bugs in just six months. My expertise spans critical modules such as Payment Gateway, Barcode Scanner, Return Profiler, and Coupon Testing, ensuring seamless performance and an exceptional user experience across platforms.
+                    <br>
+                    <br>
+                    As a Full-Stack Automation Tester, I'm passionate about enhancing software quality through robust automation frameworks and Al-driven testing strategies. Skilled in Selenium with Java, API automation, performance testing, and a variety of testing methodologies--Regression, Smoke, Functional, Compatibility, and End-to-End-| focus on building efficient, scalable, and high- performing testing solutions that drive excellence and innovation n every release.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills-page" class="skills-container boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+        <div class="skilltyper">
+            <div id="skill">Skills</div>
+            <div class="typewriter3" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                What I Can Do? <span class="typewriter-text4"></span>
+            </div>
+        </div>
+
+        <div class="skill-boxes">
+            <div class="skills-wrapper" id="skillsWrapper">
+                <div class="skill-box HH">
+                    <img src="pic/sell.png" alt="Selenium Icon">
+                    <span>Selenium</span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/java.png" alt="Java Icon">
+                    <span>Java</span>
+                </div>
+
+                <div class="skill-box HH">
+                    <img src="pic/htmll.png" alt="HTML Icon">
+                    <span>HTML</span> 
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/Postman.png" alt="Postman Icon">
+                    <span>Postman</span>
+                </div>
+
+                <div class="skill-box HH">
+                    <img src="pic/FireFlink.png" alt="Postman Icon">
+                    <span>FireFlink</span>
+                </div>
+                
+                
+                <div class="skill-box HH">
+                    <img src="pic/mysql.png" alt="MySQL Icon">
+                    <span>MySQL</span>
+                </div>
+
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>algoQA</span>
+                </div>
+
+
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>SAP</span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>Sparrow</span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>Adobe </span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>CleverTap</span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>algonomy</span>
+                </div>
+                <div class="skill-box HH">
+                    <img src="pic/aaa.png" alt="algo Icon">
+                    <span>PromoEngine</span>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="INTERNSHIP" class="boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+        <div class="about">
+            <h1 id="intern">Experince</h1>
+            
+        </div>
+        <div class="box">
+            <div class="card">
+                <p>
+                    <b>Internship</b>
+                    <br>
+                    Company: Robowaves, Bengaluru
+                    <br>
+                    Duration: November 2024 – January 2025
+                    <br>
+                        <p id="Description0" style="text-align: left;">
+
+                            <br>
+                            <b>Key Highlights:</b>
+                            <br>
+                            <br>
+                            ➟ Gained hands-on experience in both Manual and Automation Testing.
+                            <br>
+                            <br>
+                            ➟ Wrote and executed test cases in real-world projects and handling dynamic elements.
+                        </p>
+                </p>
+            </div>
+        </div>
+
+        <!-- New Experince box -->
+        </div>
+        <div class="box">
+            <div class="card">
+                <p>
+                    <b>Experince</b>
+                    <br>
+                    Company: Algoshack Technologies Pvt Ltd, Bengaluru
+                    <br>
+                    <!-- Duration: November 2024 – January 2025 -->
+                    <br>
+                    <br>
+                    <p id="Discription1">
+                                <b>Key Highlights:</b>
+                                <br>
+                                <br>
+                                ➟ Performed end-to-end testing of the application across 4 platforms (Web, Mobile Web, Android, iOS) and 4
+environments (Test, Pre-Prod, Release Branch, Live) to ensure consistent functionality, performance, and user
+experience
+            <br>
+                        <br>
+                                ➟ Performed Smoke, Regression, Integration, Compatibility, Performance, and Functional Testing to ensure product stability and optimal user experience across multiple releases.
+            <br>
+
+            <br>
+                                ➟ Tested user activity tracking and analytics using third-party platforms: CleverTap, Adobe Experience Platform
+Debugger, and Algonomy, ensuring accurate event capture, user journey monitoring, and data consistency across
+the application.
+            <br>
+            <br>
+                                ➟ Tested core E-Commerce(ABFRL - Pantaloons) functionalities: user login/logout, product search & filters, add to
+cart, Wishlist, checkout, and payment gateway.
+
+            <br>
+            <br>
+                                ➟ Conducted UI/UX validation to check responsiveness, alignment, and overall usability.
+            <br>
+                                ➟ Validated backend data integrity for login, cart, checkout, payment, and order history.
+            <br>
+            <br>
+                               ➟ Ensured data integrity in cart, payment, and order history modules. Reported, tracked, and retested defects using
+standard bug tracking tools.
+                                <br>
+                                <br>
+                    </p>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <section id="projects" class="boxxx">
+        <div class="projects-container">
+            <h1>Projects</h1>
+            <div class="project-boxes">
+                <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <img id="projectimg" src="pic\helthcare.jpg" alt="Project 1">
+                    <h2>Health Insurance Domain</h2>
+                    <p>Testing Type: Manual Testing, Automation Testing 
+
+                        Responsibilities: Team Lead
+                        
+                        In this Domain helps you Prepare Financially for the Potential cost of Long-term care, Providing you with Security 
+                        if you need Help with Everyday tasks or Medical care during your Life. It's important to weigh the cost of premiums, your health, and your future needs before deciding if this insurance is right for you.
+                    <br>
+                        <strong>Scope & Process Followed</strong>
+                        <br>
+                        ➢ Robowaves team received KT on the “Health Insurance Domain” Application.
+                        <br>
+                        ➢ We Create 76 test cases, Out of 60 were valid and considered for PROJECT (Web)
+                        <br>
+                        ➢ Four engineers participated in the POC, and automated in "Production" environment.
+                        <br>
+                        ➢ Executed all the scripts on local Chrome browser(Version 131.0.6778.140). 
+                        <br>
+                        ➢ Script Execution within the FireFlink platform.
+                        <br>
+                        ➢ We are Create Both Automation and Manual Test case.
+                </p>
+                </div>
+                <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img id="projectimg" src="pic\Project2img.jpg" alt="Project 2">
+                    <h2>Hospitality and Travel Domain
+                    </h2>
+                    <p>Testing Types: Manual & Automation Testing
+                        <br>
+                        Responsibilities: Team Lead
+                        <br>
+                        In this Domain is a vacation rental platform that offers a collection of luxury homes, villas,
+                         and holiday homes across various destinations in India. 
+                            The idea behind Stay Vista is to provide upscale accommodations
+                            in beautifully selected homes that are perfect for private events like weddings and anniversaries as well as family holidays.
+                            <br>
+                            <strong>Scope & Process Followed</strong>
+                            <br>
+                            ➢ Robowaves team received KT on the “Hospitality and Travel Domain ” Application.
+                            <br>
+                            ➢ We Create 130 test cases, Out of 110 were valid and considered for PROJECT (Web)
+                            <br>
+                            ➢ Four engineers participated in the POC, and automated in "Production" environment.
+                            <br>
+                            ➢ Executed all the scripts on local Chrome browser(Version 131.0.6778.140). 
+                            <br>
+                            ➢ Script Execution within the FireFlink platform.
+                            <br>
+                            ➢ We are Create Both Automation and Manual Test case. 
+                        </p>
+                </div>
+
+
+                <!-- New Project Boxex -->
+
+                <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img id="projectimg" src="pic\Project2img.jpg" alt="Project 2">
+                    <h2>Pantaloons
+                    </h2>
+                    <p>Testing Types: Manual & Automation Testing
+                        <br>
+                        Discription
+                            <br>
+                            <strong>Scope & Process Followed</strong>
+                            <br>
+                            ➢ Currently, I am providing support as a Manual and Automation tester on Pantaloons E-commerce sites in
+desktop/M-site and also in Android/iOS Apps.
+
+                            <br>
+                            ➢ Checking the apps part in Beta and Staging apps, then once testing is done in that, we will test in preprod or in
+Internal builds. Once testing is done, we will provide approval for the live deployment.
+                            <br>
+                            ➢ Verified application behavior and user activity tracking on third-party platforms such as CleverTap, Adobe
+Experience Platform, and Algonomy to ensure accurate analytics and data consistency.
+
+                            <br>
+                            ➢After receiving the Task KT (Knowledge Transfer), we will start writing detailed test scenarios and test cases. Test scenarios will be prepared only after gaining a complete understanding of the dependent modules and identifying which modules might be affected. Once all this information is clear, we will proceed with writing the test cases and then begin the testing process accordingly.
+                            <br>
+                            ➢  Once we receive the software, we will perform smoke testing. After that, we will proceed with task-level testing."
+                            <br>
+                            ➢ Nee to Edit
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      AOS.init({offset:0});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" 
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
